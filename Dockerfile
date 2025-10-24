@@ -1,3 +1,3 @@
-FROM nextcloud:31.0.7-fpm-alpine
+FROM nextcloud:31.0.9-fpm-alpine
 # add ffmpeg for video preview generation
 RUN apk add --no-cache ffmpeg

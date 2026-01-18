@@ -11,6 +11,8 @@ on:
 
   # to trigger
   push:
+    branches:
+      - main
     paths:
       - Dockerfile
 
